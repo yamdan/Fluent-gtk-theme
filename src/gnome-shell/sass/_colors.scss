@@ -16,6 +16,12 @@
   @if ($theme == 'yellow') { @return $yellow-700; }
   @if ($theme == 'green') { @return $green-500; }
   @if ($theme == 'grey') { @return $grey-700; }
+  @if ($theme == 'pop') { @return #48b9c7; }
+}
+
+@function panel_theme($color) {
+  @if ($theme == 'pop') { @return rgba(#48b9c7, 0.5); }
+  @return rgba($black, 0.5);
 }
 
 // Foreground colors

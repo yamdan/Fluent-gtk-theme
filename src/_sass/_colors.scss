@@ -51,6 +51,7 @@
   @if ($theme == 'yellow') { @return $yellow-700; }
   @if ($theme == 'green') { @return $green-500; }
   @if ($theme == 'grey') { @return $grey-700; }
+  @if ($theme == 'pop') { @return #48b9c7; }
 }
 
 @function titlebar($state: 'normal') {
